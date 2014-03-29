@@ -9,16 +9,29 @@
 	color: white;
 	font-family:'Helvetica Neue';
 	font-weight: 'Lightest';
-	font-variant: 'Lightest';
 
 }
-
-body {
-   background: url('dog.jpg') no-repeat center center fixed; 
+.static_pages{ 
+	 background: url('dog.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+
+} 
+
+.post_pages {
+
+
+	 background: url('Chuletas.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  
 
 }
 
