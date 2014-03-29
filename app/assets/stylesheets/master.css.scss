@@ -1,0 +1,29 @@
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+.see-box {
+	box-shadow: 2px -2px 2px 2px rgba(57, 174, 207, 1);
+	background-color: rgba(36,32,33,0.50);
+	padding: 1%;
+	margin-top: 50px;
+}
+
+body {
+   background: url('dog.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family:'Helvetica Neue', "Arial";
+  font-weight: 'lighter';
+
+}
+
+.custom-h1 {
+	color:White;
+}
+
+.navbar-brand {
+	font-family: 'Poiret One';
+}
