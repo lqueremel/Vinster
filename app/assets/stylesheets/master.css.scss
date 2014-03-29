@@ -21,14 +21,20 @@
 
 } 
 
-.post_pages {
+.posts_pages {
 
-
-	 background: url('Chuletas.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	 background: url('tweed.png') repeat;
+}
+.genie-box{
+-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+box-shadow: 1px 1px 2px 0 #d0d0d0;
+background: white;
+border: 1px solid #ccc;
+border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+margin-bottom: 20px;
+padding: 20px;
+margin-top: 10px;
 }
 body {
   
