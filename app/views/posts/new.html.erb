@@ -5,6 +5,8 @@
 </h2>
 
 <%= simple_form_for @post do |f| %>
+	<%= f.input :image, label: 'Browse for your Image Here' %>
+
 	<br><%= f.input :title, label: 'Your caption', placeholder: 'Dancing Cat, Drunk Nelson' %> </br>
 	<%= f.input :description, label: 'Tell me more...', placeholder: 'That one time the cat decided to dance a little bit'  %>
 	<br>
